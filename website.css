@@ -1,15 +1,19 @@
 *{
-    margin:0;
+    margin:0 auto;
     padding:0;
+}
+*, *:before, *:after
+{
+    box-sizing: inherit;
 }
 #head
 {
-    font-size: 70px;
+    font-size: 50px;
     max-width: 100%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
-    font-weight: 10px;
+    font-weight: 700;
     padding-top:50px;
     padding-bottom:50px;
     color: rgb(28, 36, 72);
@@ -20,15 +24,16 @@
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    line-height: 40px;
-    padding:40px;
-    max-width:100%;
-    margin-left:20%;
-    margin-right: 20%;
+    line-height: 35px;
+    padding:40px 20px;
+    
+    margin-left:10%;
+    margin-right: 10%;
     margin-top:10px;
     color:rgb(28, 36, 72);
-    font-weight:5 px;
+    font-weight:500;
     background-color: white;
+    max-width: 100%;
 
     
 
@@ -38,19 +43,55 @@
     font-size: 25px;
    
 }
-.free
+p{
+    text-align:justify;
+}
+div .free
 {
-    padding:20px 2% 20px 2%;
-    max-width: 100%;
-    align-items: center;
+    padding:20px 5px;
+    width: 100%;
+
 
 }
 body
 {
     background-color:rgb(183,230,224);
+    max-width: 100%;
 }
-#thank
+div p b #thank
 {
   font-size:40px;
   text-align: center;  
+}
+div img{
+    padding:20px 10px;
+    
+}
+.free
+{
+    max-width:100%;
+}
+@media only screen and (min-width:1000px)
+{
+    #head
+    {
+    font-size: 70px;
+    max-width: 100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    }
+    .main
+{
+    font-size: 18px;
+    line-height: 40px;
+    padding:40px 20px;
+    
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top:10px;
+    color:rgb(28, 36, 72);
+    font-weight:500;
+    background-color: white;
+    max-width: 100%;
+}
 }
