@@ -1,7 +1,5 @@
 # How-to-launch-the-website
 This is a simple responsive webpage. This webpage gives information about how to launch your website! <br>
-<b>
-    To visit the website <a href="http://howtolaunchyourwebsiteforfree.cf/">click here</a> </b>
 
 # Screenshots
 
